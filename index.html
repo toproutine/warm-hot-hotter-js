@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GuessIt</title>
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+<div id="wrapper">
+
+  <!-- Intro Text -->
+  <div class="heading">
+      <h3 class="rainbow-text"> &nbsp The GAME of <br> &nbsp cold >> warm >> warmer >> hot >> BINGO!</h3>
+          <h6 class="yellow"> Guess a number which is in the range between 1 and 100.
+          <br> The closer you get to it the warmer it gets!</h6>
+            <code> </code>
+  </div>
+
+  <!-- Action part -->
+  <div class="wrapper1">
+      <!-- Input field -->
+      <input type="text" id="inputField"></input>
+      <!-- Submit Answer -->
+      <input type="submit" onclick="guess()" value="Submit"/>
+  </div>
+
+  <!-- User Info -->
+  <div class="wrapper1" >
+      <!-- Result -->
+      <p>Distance detector: <br><br><span id="result"></span></p> <br>
+      <!-- Tries -->
+      <p>Number of tries: <span id="tries"></span></p>
+      <!-- Past -->
+      <p>Past moves: <span id="past"></span></p>
+  </div>
+
+</div>
+
+  </body>
+</html>

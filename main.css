@@ -1,0 +1,48 @@
+body {
+
+  background-color: #323232;
+  color: lightgrey;
+  font-size: 12px;
+  font-family: sans-serif;
+
+}
+
+#wrapper {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper1 {
+
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper1 img {
+
+  height: 20%;
+  width: 20%;
+}
+
+.heading {
+
+  font-style: italic;
+  font-size: 12px !important;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.heading h3 {
+  color: #fff;
+}
+
+.yellow {
+  color: yellow;
+}
+.rainbow-text {
+  background-image: linear-gradient(to right, #0276FD, #BAAF07, #C77826, #C82536, #D43D1A);
+}
